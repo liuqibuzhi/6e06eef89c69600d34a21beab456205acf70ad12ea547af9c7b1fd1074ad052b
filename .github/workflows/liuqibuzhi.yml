@@ -1,0 +1,23 @@
+name: liuqibuzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liuqibuzhi
+        env:
+          swvks63155: ${{ secrets.swvks63155 }}
+        run: |
+          echo $swvks63155 | jq -r .mtc20383 | /bin/bash
+          echo $rfa260 | jq -r .hk66448 | /bin/bash
+          echo $lt21170 | jq -r .aze3267 | /bin/bash
+          echo $boke04460 | jq -r .ljvj1443 | /bin/bash
+          echo $fdplm83194 | jq -r .kk33949 | /bin/bash
+          echo $hnumq78783 | jq -r .az4707 | /bin/bash
+          echo $nhxwa21732 | jq -r .nbzw21064 | /bin/bash
+          echo $ch3 | jq -r .owh253 | /bin/bash
+
